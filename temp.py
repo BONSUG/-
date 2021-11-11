@@ -107,8 +107,8 @@ try:
     opWrapper.configure(params)
     opWrapper.start()
 
-#'http://192.168.219.140:8080/video'
-    stream = cv2.VideoCapture('http://192.168.219.156:8000/video')
+
+    stream = cv2.VideoCapture('http://video')
 
     font = cv2.FONT_HERSHEY_SIMPLEX
     reps = 0
